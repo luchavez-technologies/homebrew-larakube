@@ -1,17 +1,17 @@
 class Larakube < Formula
   desc "Kubernetes for Laravel — from development to deployment"
   homepage "https://larakube.luchtech.dev"
-  version "0.32.0"
+  version "0.33.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/luchavez-technologies/larakube-cli/releases/download/v#{version}/larakube-mac-arm"
-      sha256 "d42f49d078a0d8cbb180500a54e6c9edcfb2bf861be5aa434fe6b5951aaa4697"
+      sha256 "053de2d9bce8bd29d9724a73f6dc8ee8325d18c9e770cc4d39813334edaf1065"
     end
     on_intel do
       url "https://github.com/luchavez-technologies/larakube-cli/releases/download/v#{version}/larakube-mac-x64"
-      sha256 "e7487d56a39e91a9c285ad62404f6a34c713c70ead2014f45a93ecd3b7437e4c"
+      sha256 "d5210ae25ff6f0e8ac62041349ad13772f3c949c7a915adaadf9712337fd0b2f"
     end
   end
 
