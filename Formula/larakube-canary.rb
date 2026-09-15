@@ -1,7 +1,7 @@
 class LarakubeCanary < Formula
   desc "Kubernetes for Laravel — bleeding-edge builds from the tip of main (unstable)"
   homepage "https://larakube.luchtech.dev"
-  version "canary-e09d450"
+  version "canary-5cf2bd9"
   license "MIT"
 
   # Republished under the same "canary" release tag on every push to main, so
