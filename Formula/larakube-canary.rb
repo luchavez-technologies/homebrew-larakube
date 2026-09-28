@@ -1,8 +1,12 @@
 class LarakubeCanary < Formula
   desc "Kubernetes for Laravel — bleeding-edge builds from the tip of develop (unstable)"
   homepage "https://larakube.luchtech.dev"
-  version "canary-99b3682"
+  version "canary-07b1ccb"
   license "MIT"
+
+  # Every cluster command shells out to a bare `kubectl` on PATH, so it is a
+  # hard runtime dependency, not a suggestion.
+  depends_on "kubernetes-cli"
 
   # Republished under the same "canary" release tag on every push to develop, so
   # the binary's bytes at this URL change without the URL itself changing.
