@@ -1,7 +1,7 @@
 class LarakubeCanary < Formula
   desc "Kubernetes for Laravel — bleeding-edge builds from the tip of develop (unstable)"
   homepage "https://larakube.luchtech.dev"
-  version "canary-b48df51"
+  version "canary-27256a6"
   license "MIT"
 
   # Every cluster command shells out to a bare `kubectl` on PATH, so it is a
